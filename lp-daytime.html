@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ボッチャ＆Philosophy Cafe | 秋田市 シニアのための本気の居場所</title>
+  <meta name="description" content="秋田市外旭川。ボッチャリーグとPhilosophy Cafeで、退職後の人生に「役割」と「仲間」を。65歳からの新しい居場所。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#2d5016',
+            'forest-light': '#4a7c28',
+            'forest-dark': '#1a3009',
+            cream: '#faf6ee',
+            'cream-dark': '#f0e8d8',
+            warmgray: '#6b6560',
+            terracotta: '#c4704b',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Noto Sans JP', sans-serif; }
+    .font-serif { font-family: 'Noto Serif JP', serif; }
+  </style>
+</head>
+<body class="bg-cream text-gray-800">
+
+  <!-- ナビゲーション -->
+  <nav class="fixed top-0 w-full bg-cream/95 backdrop-blur-sm z-50 border-b border-forest/10 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+      <span class="font-serif text-forest text-lg tracking-wider">ボッチャ＆Philosophy Cafe</span>
+      <div class="hidden md:flex gap-6 text-sm">
+        <a href="#boccia" class="hover:text-forest transition-colors">ボッチャ</a>
+        <a href="#philosophy" class="hover:text-forest transition-colors">Philosophy Cafe</a>
+        <a href="#lounge" class="hover:text-forest transition-colors">ラウンジ</a>
+        <a href="#voice" class="hover:text-forest transition-colors">参加者の声</a>
+        <a href="#access" class="hover:text-forest transition-colors">アクセス</a>
+      </div>
+      <a href="#contact" class="bg-forest text-white text-sm font-bold px-5 py-2 rounded-full hover:bg-forest-light transition-colors">無料体験に申し込む</a>
+    </div>
+  </nav>
+
+  <!-- ヒーロー -->
+  <section class="pt-24 pb-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-forest tracking-widest text-sm mb-4">秋田市 65歳からの新しい居場所</p>
+      <h1 class="font-serif text-3xl md:text-5xl text-forest-dark leading-tight mb-6">
+        退職したら、<br>終わりじゃない。<br>
+        <span class="text-terracotta">ここから始まる。</span>
+      </h1>
+      <p class="text-lg text-warmgray max-w-2xl mx-auto mb-8 leading-relaxed">
+        ボッチャリーグで「チームの一員」に。<br>
+        Philosophy Cafeで「あなたの言葉」が誰かの気づきに。<br>
+        単なるレクリエーションではない、<strong>本気で取り組むコンテンツ</strong>がここにあります。
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#boccia" class="bg-forest text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-forest-light transition-colors">ボッチャを体験する（無料）</a>
+        <a href="#philosophy" class="border-2 border-forest text-forest font-bold px-8 py-4 rounded-full text-lg hover:bg-forest hover:text-white transition-colors">Philosophy Cafeに参加する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 共感セクション -->
+  <section class="py-16 px-4 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="font-serif text-2xl md:text-3xl text-center text-forest-dark mb-10">こんなこと、感じていませんか？</h2>
+      <div class="space-y-6">
+        <div class="flex items-start gap-4 bg-cream-dark rounded-xl p-6">
+          <span class="text-3xl">🤔</span>
+          <div>
+            <p class="font-bold text-lg mb-1">退職してから、自分の「役割」がなくなった気がする</p>
+            <p class="text-warmgray">会社では部長だった。でも今は、誰にも必要とされていない気がする…</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-cream-dark rounded-xl p-6">
+          <span class="text-3xl">😔</span>
+          <div>
+            <p class="font-bold text-lg mb-1">地域センターの活動は、なんだか物足りない</p>
+            <p class="text-warmgray">「高齢者のための」活動ばかり。もっと本気で何かに取り組みたいのに…</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-cream-dark rounded-xl p-6">
+          <span class="text-3xl">💭</span>
+          <div>
+            <p class="font-bold text-lg mb-1">同世代だけのグループには、正直あまり魅力を感じない</p>
+            <p class="text-warmgray">年齢で括られるのではなく、同じ志を持つ人と一緒に何かをしたい</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-xl font-serif text-forest mt-10">
+        その気持ち、ここで叶えられます。
+      </p>
+    </div>
+  </section>
+
+  <!-- ボッチャセクション -->
+  <section id="boccia" class="py-20 px-4">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-terracotta tracking-widest text-sm mb-2">BOCCIA LEAGUE</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-forest-dark mb-4">ボッチャリーグ</h2>
+        <p class="text-warmgray text-lg">秋田初のオフィシャルコートで、本気の試合を。</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div>
+          <img src="https://placehold.co/600x400/2d5016/ffffff?text=Boccia+Court" alt="ボッチャコート" class="rounded-2xl shadow-lg w-full">
+        </div>
+        <div>
+          <h3 class="font-serif text-2xl text-forest-dark mb-4">「遊び」ではなく「競技」として</h3>
+          <p class="text-warmgray leading-relaxed mb-6">
+            ボッチャは、パラリンピックの正式種目。年齢や体力に関係なく、戦略と集中力で勝負するスポーツです。
+            当店では秋田初のオフィシャルコートを常設し、年3シーズン制のリーグ戦を開催しています。
+          </p>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <span class="bg-forest text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">1</span>
+              <span><strong>無料体験会</strong>（1月・5月・9月）まずはここから</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="bg-forest text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">2</span>
+              <span><strong>プレリーグ</strong> 仲間を作って、試合の楽しさを体感</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="bg-forest text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">3</span>
+              <span><strong>リーグ戦</strong> チームで戦う。順位表が店内に掲示されます</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ボッチャ詳細 -->
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+          <p class="text-4xl mb-3">🏆</p>
+          <h4 class="font-bold text-lg mb-2">年3シーズン制</h4>
+          <p class="text-warmgray text-sm">春（5〜7月）・秋（9〜11月）・冬（1〜3月）。シーズン最終日にチャンピオンシップ開催</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+          <p class="text-4xl mb-3">👥</p>
+          <h4 class="font-bold text-lg mb-2">チーム制</h4>
+          <p class="text-warmgray text-sm">3〜4人でチームを組んで参加。仲間ができる。チーム名は自分たちで決められます</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+          <p class="text-4xl mb-3">💰</p>
+          <h4 class="font-bold text-lg mb-2">参加費500円/回</h4>
+          <p class="text-warmgray text-sm">無料体験会あり。プレリーグも無料。まずは気軽にお越しください</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Cafeセクション -->
+  <section id="philosophy" class="py-20 px-4 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-terracotta tracking-widest text-sm mb-2">PHILOSOPHY CAFE</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-forest-dark mb-4">Philosophy Cafe</h2>
+        <p class="text-warmgray text-lg">正解のない問いを、語り合う90分。</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div>
+          <h3 class="font-serif text-2xl text-forest-dark mb-4">あなたの言葉が、誰かの気づきになる</h3>
+          <p class="text-warmgray leading-relaxed mb-6">
+            「人生とは」「子育てとは」「仕事とは」「悔しさとは」——<br>
+            哲学的なテーマについて、4人1テーブルで語り合います。<br>
+            正解はありません。あなたの人生経験から出る言葉が、このカフェの価値です。
+          </p>
+          <div class="bg-cream-dark rounded-xl p-6 mb-6">
+            <p class="font-bold text-forest mb-2">📋 過去のテーマ例</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white px-3 py-1 rounded-full text-sm">人生とは</span>
+              <span class="bg-white px-3 py-1 rounded-full text-sm">子育てとは</span>
+              <span class="bg-white px-3 py-1 rounded-full text-sm">仕事とは</span>
+              <span class="bg-white px-3 py-1 rounded-full text-sm">悔しさとは</span>
+              <span class="bg-white px-3 py-1 rounded-full text-sm">嫉妬とは</span>
+              <span class="bg-white px-3 py-1 rounded-full text-sm">幸せとは</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="https://placehold.co/600x400/c4704b/ffffff?text=Philosophy+Cafe" alt="Philosophy Cafe" class="rounded-2xl shadow-lg w-full">
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-cream rounded-xl p-6 shadow-sm text-center">
+          <p class="text-4xl mb-3">☕</p>
+          <h4 class="font-bold text-lg mb-2">参加費1,000円（飲み物付き）</h4>
+          <p class="text-warmgray text-sm">コーヒーまたは紅茶付き。初回は無料で体験できます</p>
+        </div>
+        <div class="bg-cream rounded-xl p-6 shadow-sm text-center">
+          <p class="text-4xl mb-3">📅</p>
+          <h4 class="font-bold text-lg mb-2">毎週 水・金 開催</h4>
+          <p class="text-warmgray text-sm">午前の部（10:00〜11:30）と午後の部（13:00〜14:30）の1日2回</p>
+        </div>
+        <div class="bg-cream rounded-xl p-6 shadow-sm text-center">
+          <p class="text-4xl mb-3">📖</p>
+          <h4 class="font-bold text-lg mb-2">四半期レポート</h4>
+          <p class="text-warmgray text-sm">出た意見を四半期ごとにまとめて公開。あなたの言葉が形になります</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ラウンジセクション -->
+  <section id="lounge" class="py-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-terracotta tracking-widest text-sm mb-2">LOUNGE</p>
+      <h2 class="font-serif text-3xl md:text-4xl text-forest-dark mb-4">ラウンジ</h2>
+      <p class="text-warmgray text-lg mb-8">ボッチャやPhilosophy Cafeの後に、ゆっくりと。</p>
+      <div class="bg-white rounded-2xl p-8 shadow-sm max-w-2xl mx-auto">
+        <p class="text-warmgray leading-relaxed mb-6">
+          活動の後は、フレッシュなコーヒーの香りとスイーツで、心と体をリセット。<br>
+          仲間との余韻を楽しむ時間も、大切な「居場所」の一部です。
+        </p>
+        <div class="grid grid-cols-2 gap-4 text-center">
+          <div class="bg-cream rounded-lg p-4">
+            <p class="font-bold">ランチ</p>
+            <p class="text-warmgray text-sm">1,000円〜</p>
+          </div>
+          <div class="bg-cream rounded-lg p-4">
+            <p class="font-bold">カフェ</p>
+            <p class="text-warmgray text-sm">600円〜</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 参加者の声 -->
+  <section id="voice" class="py-20 px-4 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="font-serif text-3xl text-center text-forest-dark mb-12">参加者の声</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-cream rounded-xl p-6">
+          <p class="text-warmgray leading-relaxed mb-4">「退職してから3年、毎日が同じだった。ボッチャリーグに参加してから、火曜日が待ち遠しくなった。チームのみんなに会えるのが嬉しい。」</p>
+          <p class="font-bold text-forest">— 佐藤さん（74歳・男性）ボッチャリーグ参加者</p>
+        </div>
+        <div class="bg-cream rounded-xl p-6">
+          <p class="text-warmgray leading-relaxed mb-4">「Philosophy Cafeで『子育てとは』というテーマで話した時、自分の経験が若い世代の参考になると言われて、涙が出そうになった。」</p>
+          <p class="font-bold text-forest">— 久美子さん（72歳・女性）Philosophy Cafe参加者</p>
+        </div>
+      </div>
+      <p class="text-center text-sm text-warmgray mt-6">※参加者の声はイメージです</p>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section id="access" class="py-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="font-serif text-3xl text-forest-dark mb-8">アクセス</h2>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <p class="text-lg font-bold mb-2">秋田市外旭川エリア</p>
+        <p class="text-warmgray mb-4">バス停から徒歩○分 / 駐車場あり</p>
+        <div class="bg-cream-dark rounded-lg p-4 inline-block">
+          <p class="text-sm">営業時間：10:00〜15:00（昼の事業）</p>
+          <p class="text-sm">定休日：土日祝（不定期イベントあり）</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="py-20 px-4 bg-forest text-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="font-serif text-3xl mb-4">まずは無料体験から</h2>
+      <p class="text-green-200 mb-8 text-lg">ボッチャもPhilosophy Cafeも、初回は無料で体験できます。<br>お気軽にお問い合わせください。</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:018-XXX-XXXX" class="bg-white text-forest font-bold px-8 py-4 rounded-full text-lg hover:bg-cream transition-colors">📞 018-XXX-XXXX</a>
+        <a href="#" class="border-2 border-white text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-white hover:text-forest transition-colors">📱 LINEで問い合わせ</a>
+      </div>
+      <p class="text-green-200 text-sm mt-6">お電話受付：10:00〜15:00（平日）</p>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="bg-forest-dark text-green-200 py-8 px-4 text-center text-sm">
+    <p>© 2026 ボッチャ＆Philosophy Cafe｜秋田市外旭川</p>
+  </footer>
+
+</body>
+</html>

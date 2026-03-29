@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>チラシ：My Fave Support｜NHファンの語り場</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            nhred: '#c41e3a',
+            'nhred-light': '#e8304f',
+            dark: '#1a1a2e',
+            'dark-light': '#252540',
+            accent: '#ff6b9d',
+            gold: '#ffd700',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
+    body { font-family: 'Noto Sans JP', sans-serif; }
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+    .page { width: 210mm; min-height: 297mm; margin: 0 auto; }
+  </style>
+</head>
+<body class="bg-gray-300">
+
+  <!-- A4チラシ -->
+  <div class="page bg-dark text-gray-200 p-8 shadow-2xl">
+
+    <!-- ヘッダー -->
+    <div class="text-center mb-5">
+      <p class="text-accent tracking-widest text-xs mb-1">NH FANS GATHERING PLACE</p>
+      <h1 class="text-4xl font-black text-white leading-tight mb-2" style="text-shadow: 0 0 20px rgba(196,30,58,0.5);">
+        推しを語れる場所、<br>秋田にできました。
+      </h1>
+      <p class="text-nhred font-bold text-lg">My Fave Support</p>
+      <div class="w-24 h-0.5 bg-nhred mx-auto mt-2"></div>
+    </div>
+
+    <!-- メイン画像 -->
+    <div class="mb-5">
+      <img src="https://placehold.co/800x250/c41e3a/ffffff?text=PV+Watching+%26+Oshi-Katsu" alt="PV観戦＆推し活" class="rounded-xl w-full">
+    </div>
+
+    <!-- 4つの魅力 -->
+    <div class="grid grid-cols-2 gap-3 mb-5">
+      <div class="bg-dark-light rounded-xl p-4 border border-nhred/20">
+        <p class="text-2xl mb-1">🖥️</p>
+        <p class="text-white font-bold text-sm mb-1">大画面PV観戦</p>
+        <p class="text-gray-400 text-xs">ホームもアウェイも、ここで一緒に応援。65インチ以上の大画面で迫力の観戦体験</p>
+      </div>
+      <div class="bg-dark-light rounded-xl p-4 border border-accent/20">
+        <p class="text-2xl mb-1">🎨</p>
+        <p class="text-white font-bold text-sm mb-1">推しグッズ制作</p>
+        <p class="text-gray-400 text-xs">カスタムうちわ（800円〜）、アクリルスタンド。自分だけの推しグッズを作ろう</p>
+      </div>
+      <div class="bg-dark-light rounded-xl p-4 border border-nhred/20">
+        <p class="text-2xl mb-1">🍽️</p>
+        <p class="text-white font-bold text-sm mb-1">選手コラボメニュー</p>
+        <p class="text-gray-400 text-xs">月替わりで選手の「推しメニュー」が登場。背番号ドリンク（550円）も</p>
+      </div>
+      <div class="bg-dark-light rounded-xl p-4 border border-accent/20">
+        <p class="text-2xl mb-1">🏀</p>
+        <p class="text-white font-bold text-sm mb-1">フリースローチャレンジ</p>
+        <p class="text-gray-400 text-xs">成功したらドリンク1杯無料！バスケ体験の非日常感を楽しもう</p>
+      </div>
+    </div>
+
+    <!-- メニューハイライト -->
+    <div class="bg-dark-light rounded-xl p-4 mb-5 border border-gold/20">
+      <h3 class="text-gold font-bold text-center mb-3">🍻 人気メニュー</h3>
+      <div class="grid grid-cols-3 gap-3 text-center text-sm">
+        <div>
+          <p class="text-white font-bold">ブースターセット</p>
+          <p class="text-gray-400 text-xs">ワンバイト2品＋ドリンク2杯</p>
+          <p class="text-gold font-bold">2,200円</p>
+        </div>
+        <div>
+          <p class="text-white font-bold">推し活セット</p>
+          <p class="text-gray-400 text-xs">コラボメニュー＋背番号ドリンク＋コースター</p>
+          <p class="text-gold font-bold">1,800円</p>
+        </div>
+        <div>
+          <p class="text-white font-bold">敵メシ</p>
+          <p class="text-gray-400 text-xs">対戦相手の地元名物アレンジ（毎試合変わる！）</p>
+          <p class="text-gold font-bold">680円</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 曜日別イベント -->
+    <div class="mb-5">
+      <h3 class="text-white font-bold text-center mb-3">📅 試合がない日も楽しい！曜日別イベント</h3>
+      <div class="flex gap-2 justify-center">
+        <div class="bg-dark-light rounded-lg px-3 py-2 text-center border border-nhred/10 flex-1">
+          <p class="text-nhred font-bold text-xs">月</p>
+          <p class="text-white text-xs">スポーツ中継</p>
+        </div>
+        <div class="bg-dark-light rounded-lg px-3 py-2 text-center border border-nhred/10 flex-1">
+          <p class="text-nhred font-bold text-xs">火</p>
+          <p class="text-white text-xs">クイズナイト</p>
+        </div>
+        <div class="bg-dark-light rounded-lg px-3 py-2 text-center border border-accent/10 flex-1">
+          <p class="text-accent font-bold text-xs">水</p>
+          <p class="text-white text-xs">推し活女子会</p>
+        </div>
+        <div class="bg-dark-light rounded-lg px-3 py-2 text-center border border-nhred/10 flex-1">
+          <p class="text-nhred font-bold text-xs">木</p>
+          <p class="text-white text-xs">もくもくナイト</p>
+        </div>
+        <div class="bg-dark-light rounded-lg px-3 py-2 text-center border border-accent/10 flex-1">
+          <p class="text-accent font-bold text-xs">土日</p>
+          <p class="text-white text-xs">女子会/地酒</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 特典 -->
+    <div class="bg-gradient-to-r from-nhred to-accent rounded-xl p-4 mb-5 text-center">
+      <h3 class="text-white font-bold text-lg mb-2">🎁 来店特典</h3>
+      <div class="grid grid-cols-3 gap-3 text-sm">
+        <div class="bg-white/10 rounded-lg p-2">
+          <p class="text-white font-bold">👕 ユニ着用</p>
+          <p class="text-white/80 text-xs">10%OFF</p>
+        </div>
+        <div class="bg-white/10 rounded-lg p-2">
+          <p class="text-white font-bold">🎫 半券提示</p>
+          <p class="text-white/80 text-xs">10%OFF</p>
+        </div>
+        <div class="bg-white/10 rounded-lg p-2">
+          <p class="text-white font-bold">📸 SNS投稿</p>
+          <p class="text-white/80 text-xs">ドリンク1杯</p>
+        </div>
+      </div>
+      <p class="text-white/80 text-xs mt-2">#NH女子の語り場 で投稿してね！</p>
+    </div>
+
+    <!-- お問い合わせ -->
+    <div class="bg-white rounded-xl p-5 text-center text-gray-800">
+      <div class="flex justify-center gap-8 mb-3">
+        <div>
+          <p class="text-xs text-gray-500">お電話</p>
+          <p class="font-bold text-2xl text-nhred">018-XXX-XXXX</p>
+        </div>
+        <div>
+          <p class="text-xs text-gray-500">LINE予約</p>
+          <div class="bg-gray-100 rounded-lg p-3 inline-block">
+            <p class="text-gray-500 text-xs font-bold">QRコード</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-xs text-gray-500">Instagram</p>
+          <div class="bg-gray-100 rounded-lg p-3 inline-block">
+            <p class="text-gray-500 text-xs font-bold">@myfavesupport</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-xs text-gray-500">📍 秋田市（CNAアリーナ周辺）｜ 🕐 17:00〜23:00（土日試合日は12:00〜）｜ 🅿️ 駐車場あり</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
